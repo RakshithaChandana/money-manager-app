@@ -38,63 +38,7 @@
   color: #0b69ff;
   font-weight: 600;
 }
-.money-details-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 60px;
-}
-.balance-container {
-  background-color: #ecfccb;
-  border-color: #84cc16;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  width: 30%;
-  border-width: 2px;
-  border-radius: 20px;
-}
-.balance-container-2 {
-  background-color: #cffafe;
-  border-color: #06b6d4;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  width: 30%;
-  border-width: 2px;
-  border-radius: 20px;
-  margin-left: 80px;
-}
-.balance-container-3 {
-  background-color: #ede9fe;
-  border-color: #7c3aed;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  width: 30%;
-  border-width: 2px;
-  border-radius: 20px;
-  margin-left: 80px;
-}
-.container {
-  margin-left: 42px;
-}
-.image {
-  margin-top: 10px;
-  height: 90px;
-  width: 90px;
-}
-.heading {
-  color: #334155;
-  font-size: 18px;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-.amount {
-  color: #334155;
-  font-size: 28px;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
+
 .add-transaction-container {
   padding: 40px;
   display: flex;
@@ -201,41 +145,7 @@
     margin-left: 0px;
     text-align: center;
   }
-  .money-details-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .balance-container {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 22px;
-  }
-  .balance-container-2 {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 22px;
-    margin-left: 0px;
-  }
-  .balance-container-3 {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 22px;
-    margin-left: 0px;
-  }
-  .heading {
-    font-size: 15px;
-  }
-  .amount {
-    font-size: 22px;
-  }
-  .container {
-    margin-left: 25px;
-  }
-  .image {
-    margin-top: 5px;
-    height: 80px;
-    width: 80px;
-  }
+  
   .add-transaction-container {
     padding: 30px;
     display: flex;

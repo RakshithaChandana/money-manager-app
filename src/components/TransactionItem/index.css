@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-color: #cbd5e1;
+
+  color: #334155;
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.delete-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 150px;
+}
+.title-row-item {
+  color: #334155;
+  margin-left: 21px;
+}
+.amount-row-item {
+  margin-left: 120px;
+}
+.type-row-item {
+  margin-left: 142px;
+}
+@media screen and (max-width: 768px) {
+  .list-container {
+    font-size: 14px;
+  }
+  .title-row-item {
+    margin-left: 0px;
+  }
+  .amount-row-item {
+    margin-left: 25px;
+  }
+  .type-row-item {
+    margin-left: 26px;
+  }
+  .delete-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+  }
+}
